@@ -1,17 +1,21 @@
-""" expand_traversal_tree.py
+""" philhopper.py
 
-    Running this script will insert new entries into the
-    'traversal_tree' table of the database. The entries are
-    the children of the root node Philosophy.
+    From any starter Wikipedia article, hop to the
+    Philosophy article by following link `i` in the
+    description of each article.
 
+    Usage:
+        python philhopper.py
 
+    Tested with Python 3.10.7
+
+    Author: Aron Molnar (gh/Arotte)
 """
 
 import tqdm
 import requests
 import sys
 import os
-import random
 from urllib.parse import unquote
 from bs4 import BeautifulSoup
 
@@ -20,15 +24,10 @@ from config import (
     WIKIPEDIA_BASE_URL,
     MAX_HOPS,
     WIKI_URL_OF_PHILOSOPHY,
-    DEFAULT_SQLITE_DB_NAME,
 )
 
 # full path of this script
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
-
-# full path of the SQLite database
-SQLITE_PATH = os.path.join(SCRIPT_PATH, DEFAULT_SQLITE_DB_NAME)
-
 
 # =============================================================================
 # HELPERS
@@ -70,6 +69,54 @@ def encode_fix(url: str) -> str:
         url = unquote(url)
 
     return url
+
+
+# =============================================================================
+# ARTICLE DATA OBJECT
+# =============================================================================
+
+
+class Page:
+    def __init__(
+        self,
+        db_rowid,
+        wiki_pageid,
+        pagetitle,
+        ithlink,
+        i,
+        fullurl,
+        titleurl,
+        parent_rowid,
+    ):
+        self.db_rowid = db_rowid
+        self.wiki_pageid = wiki_pageid
+        self.pagetitle = pagetitle
+        self.ithlink = ithlink
+        self.i = i
+        self.fullurl = fullurl
+        self.titleurl = titleurl
+        self.parent_rowid = parent_rowid
+
+    def to_tuple(self):
+        return (
+            self.db_rowid,
+            self.wiki_pageid,
+            self.pagetitle,
+            self.ithlink,
+            self.i,
+            self.fullurl,
+            self.titleurl,
+            self.parent_rowid,
+        )
+
+    def tuple_without_rowid(self):
+        return self.to_tuple()[1:]
+
+    def __str__(self):
+        return self.__repr__()
+
+    def __repr__(self):
+        return f"WikiPage(\n\tdb_rowid={self.db_rowid},\n\twiki_pageid={self.wiki_pageid},\n\tpagetitle={self.pagetitle},\n\tithlink={self.ithlink},\n\ti={self.i},\n\tfullurl={self.fullurl},\n\ttitleurl={self.titleurl},\n\tparent_rowid={self.parent_rowid}\n)"
 
 
 # =============================================================================
@@ -399,14 +446,10 @@ def hop_to_philosophy(start_url: str, link_i: int) -> list:
 
 def main():
 
-    # print(f"Adding more entries to the traversal tree database...")
     print(f"\nWARNING: This script will run forever, press Ctrl+C to stop\n")
 
     link_i = 1  # get i-th link of each page
     n = 10  # how many random pages to get in each iteration
-
-    # initialize TreeDao
-    # tree_dao = TreeDao(SQLITE_PATH)
 
     try:
         while True:  # infinite loop, break with Ctrl+C
@@ -435,18 +478,4 @@ def main():
 if __name__ == "__main__":
     print(f"Running {__file__}...")
 
-    # TreeDao(SQLITE_PATH).drop_table()
-
     main()
-
-    # ###########################################
-
-    # print(extract_link("https://en.wikipedia.org/wiki/Knowledge", 3))
-    # print(extract_link("https://en.wikipedia.org/wiki/Knowledge_by_acquaintance", 3))
-
-    # ###########################################
-
-    # print(extract_link("https://en.wikipedia.org/wiki/Ambiguity", 3))
-    # print(extract_link("https://en.wikipedia.org/wiki/Intention", 3))
-
-    # hop_to_philosophy("https://en.wikipedia.org/wiki/Wildcard_mask", 3)
