@@ -1,0 +1,207 @@
+PS> python .\philhopper.py
+
+NOTE: To cancel the script at any time, press "Ctrl + C"
+
+Getting 10 random Wikipedia pages...
+Extracting data from 10 random Wikipedia pages
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:02<00:00,  4.83it/s]
+
+Random articles:
+https://en.wikipedia.org/wiki/Redbergslids_IK_Fotboll
+https://en.wikipedia.org/wiki/The_Pope_and_the_Witch
+https://en.wikipedia.org/wiki/Nasbinals
+https://en.wikipedia.org/wiki/Phanus
+https://en.wikipedia.org/wiki/Sara_Thornton_(police_officer)
+https://en.wikipedia.org/wiki/2022%E2%80%9323_SC_Pick_Szeged_season
+https://en.wikipedia.org/wiki/Albert_Reuter
+https://en.wikipedia.org/wiki/Lambis_truncata
+https://en.wikipedia.org/wiki/Kapoor
+https://en.wikipedia.org/wiki/Frank_Jerome_Murray
+
+Hopping to Philosophy from 'Redbergslids_IK_Fotboll'...
+Max hops = 100, i = 1
+        0. Redbergslids_IK_Fotboll (https://en.wikipedia.org/wiki/Redbergslids_IK_Fotboll)
+        1. Sweden (https://en.wikipedia.org/wiki/Sweden)
+        2. Geographic_coordinate_system (https://en.wikipedia.org/wiki/Geographic_coordinate_system)
+        3. Spherical_coordinate_system (https://en.wikipedia.org/wiki/Spherical_coordinate_system)
+        4. Mathematics (https://en.wikipedia.org/wiki/Mathematics)
+        5. Reason (https://en.wikipedia.org/wiki/Reason)
+        6. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        7. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        8. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        9. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'The_Pope_and_the_Witch'...
+Max hops = 100, i = 1
+        0. The_Pope_and_the_Witch (https://en.wikipedia.org/wiki/The_Pope_and_the_Witch)
+        1. Satire (https://en.wikipedia.org/wiki/Satire)
+        2. Genre (https://en.wikipedia.org/wiki/Genre)
+        3. Communication (https://en.wikipedia.org/wiki/Communication)
+        4. Information (https://en.wikipedia.org/wiki/Information)
+        5. Abstraction (https://en.wikipedia.org/wiki/Abstraction)
+        6. Rule_of_inference (https://en.wikipedia.org/wiki/Rule_of_inference)
+        7. Philosophy_of_logic (https://en.wikipedia.org/wiki/Philosophy_of_logic)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Nasbinals'...
+Max hops = 100, i = 1
+        0. Nasbinals (https://en.wikipedia.org/wiki/Nasbinals)
+        1. Communes_of_France (https://en.wikipedia.org/wiki/Communes_of_France)
+        2. Administrative_divisions (https://en.wikipedia.org/wiki/Administrative_divisions)
+        3. Sovereign_state (https://en.wikipedia.org/wiki/Sovereign_state)
+        4. Polity (https://en.wikipedia.org/wiki/Polity)
+        5. Politics (https://en.wikipedia.org/wiki/Politics)
+        6. Decision-making (https://en.wikipedia.org/wiki/Decision-making)
+        7. Psychology (https://en.wikipedia.org/wiki/Psychology)
+        8. Science (https://en.wikipedia.org/wiki/Science)
+        9. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        10. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        11. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        12. Logic (https://en.wikipedia.org/wiki/Logic)
+        13. Reason (https://en.wikipedia.org/wiki/Reason)
+        14. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        15. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        16. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        17. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Phanus'...
+Max hops = 100, i = 1
+        0. Phanus (https://en.wikipedia.org/wiki/Phanus)
+        1. Butterflies (https://en.wikipedia.org/wiki/Butterflies)
+        2. Insect (https://en.wikipedia.org/wiki/Insect)
+        3. Pancrustacea (https://en.wikipedia.org/wiki/Pancrustacea)
+        4. Clade (https://en.wikipedia.org/wiki/Clade)
+        5. Organism (https://en.wikipedia.org/wiki/Organism)
+        6. Biology (https://en.wikipedia.org/wiki/Biology)
+        7. Science (https://en.wikipedia.org/wiki/Science)
+        8. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        9. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        10. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        11. Logic (https://en.wikipedia.org/wiki/Logic)
+        12. Reason (https://en.wikipedia.org/wiki/Reason)
+        13. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        14. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        15. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        16. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Sara_Thornton_(police_officer)'...
+Max hops = 100, i = 1
+        0. Sara_Thornton_(police_officer) (https://en.wikipedia.org/wiki/Sara_Thornton_(police_officer))
+        1. Dame_Commander_of_the_Order_of_the_British_Empire (https://en.wikipedia.org/wiki/Dame_Commander_of_the_Order_of_the_British_Empire)
+        2. Order_of_chivalry (https://en.wikipedia.org/wiki/Order_of_chivalry)
+        3. Order_(distinction) (https://en.wikipedia.org/wiki/Order_(distinction))
+        4. Honour (https://en.wikipedia.org/wiki/Honour)
+        5. Ethos (https://en.wikipedia.org/wiki/Ethos)
+        6. Greek_language (https://en.wikipedia.org/wiki/Greek_language)
+        7. Indo-European_languages (https://en.wikipedia.org/wiki/Indo-European_languages)
+        8. Language_family (https://en.wikipedia.org/wiki/Language_family)
+        9. Language (https://en.wikipedia.org/wiki/Language)
+        10. Communication (https://en.wikipedia.org/wiki/Communication)
+        11. Information (https://en.wikipedia.org/wiki/Information)
+        12. Abstraction (https://en.wikipedia.org/wiki/Abstraction)
+        13. Rule_of_inference (https://en.wikipedia.org/wiki/Rule_of_inference)
+        14. Philosophy_of_logic (https://en.wikipedia.org/wiki/Philosophy_of_logic)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from '2022%E2%80%9323_SC_Pick_Szeged_season'...
+Max hops = 100, i = 1
+        0. 2022%E2%80%9323_SC_Pick_Szeged_season (https://en.wikipedia.org/wiki/2022%E2%80%9323_SC_Pick_Szeged_season)
+        1. SC_Pick_Szeged (https://en.wikipedia.org/wiki/SC_Pick_Szeged)
+        2. Hungary (https://en.wikipedia.org/wiki/Hungary)
+        3. Geographic_coordinate_system (https://en.wikipedia.org/wiki/Geographic_coordinate_system)
+        4. Spherical_coordinate_system (https://en.wikipedia.org/wiki/Spherical_coordinate_system)
+        5. Mathematics (https://en.wikipedia.org/wiki/Mathematics)
+        6. Reason (https://en.wikipedia.org/wiki/Reason)
+        7. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        8. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        9. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        10. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Albert_Reuter'...
+Max hops = 100, i = 1
+        0. Albert_Reuter (https://en.wikipedia.org/wiki/Albert_Reuter)
+        1. Association_football (https://en.wikipedia.org/wiki/Association_football)
+        2. Team_sport (https://en.wikipedia.org/wiki/Team_sport)
+        3. Sport (https://en.wikipedia.org/wiki/Sport)
+        4. Competition (https://en.wikipedia.org/wiki/Competition)
+        5. Rivalry (https://en.wikipedia.org/wiki/Rivalry)
+        6. Social_group (https://en.wikipedia.org/wiki/Social_group)
+        7. Social_science (https://en.wikipedia.org/wiki/Social_science)
+        8. Branches_of_science (https://en.wikipedia.org/wiki/Branches_of_science)
+        9. Science (https://en.wikipedia.org/wiki/Science)
+        10. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        11. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        12. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        13. Logic (https://en.wikipedia.org/wiki/Logic)
+        14. Reason (https://en.wikipedia.org/wiki/Reason)
+        15. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        16. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        17. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        18. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Lambis_truncata'...
+Max hops = 100, i = 1
+        0. Lambis_truncata (https://en.wikipedia.org/wiki/Lambis_truncata)
+        1. Common_name (https://en.wikipedia.org/wiki/Common_name)
+        2. Biology (https://en.wikipedia.org/wiki/Biology)
+        3. Science (https://en.wikipedia.org/wiki/Science)
+        4. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        5. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        6. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        7. Logic (https://en.wikipedia.org/wiki/Logic)
+        8. Reason (https://en.wikipedia.org/wiki/Reason)
+        9. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        10. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        11. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        12. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Kapoor'...
+Max hops = 100, i = 1
+        0. Kapoor (https://en.wikipedia.org/wiki/Kapoor)
+        1. Hindu (https://en.wikipedia.org/wiki/Hindu)
+        2. Hinduism (https://en.wikipedia.org/wiki/Hinduism)
+        3. Indian_religions (https://en.wikipedia.org/wiki/Indian_religions)
+        4. Religion (https://en.wikipedia.org/wiki/Religion)
+        5. Social_system (https://en.wikipedia.org/wiki/Social_system)
+        6. Sociology (https://en.wikipedia.org/wiki/Sociology)
+        7. Social_science (https://en.wikipedia.org/wiki/Social_science)
+        8. Branches_of_science (https://en.wikipedia.org/wiki/Branches_of_science)
+        9. Science (https://en.wikipedia.org/wiki/Science)
+        10. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        11. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        12. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        13. Logic (https://en.wikipedia.org/wiki/Logic)
+        14. Reason (https://en.wikipedia.org/wiki/Reason)
+        15. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        16. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        17. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        18. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
+
+Hopping to Philosophy from 'Frank_Jerome_Murray'...
+Max hops = 100, i = 1
+        0. Frank_Jerome_Murray (https://en.wikipedia.org/wiki/Frank_Jerome_Murray)
+        1. United_States_federal_judge (https://en.wikipedia.org/wiki/United_States_federal_judge)
+        2. United_States (https://en.wikipedia.org/wiki/United_States)
+        3. North_America (https://en.wikipedia.org/wiki/North_America)
+        4. Continent (https://en.wikipedia.org/wiki/Continent)
+        5. Landmass (https://en.wikipedia.org/wiki/Landmass)
+        6. Region (https://en.wikipedia.org/wiki/Region)
+        7. Geography (https://en.wikipedia.org/wiki/Geography)
+        8. Science (https://en.wikipedia.org/wiki/Science)
+        9. Scientific_method (https://en.wikipedia.org/wiki/Scientific_method)
+        10. Empirical_evidence (https://en.wikipedia.org/wiki/Empirical_evidence)
+        11. Proposition (https://en.wikipedia.org/wiki/Proposition)
+        12. Logic (https://en.wikipedia.org/wiki/Logic)
+        13. Reason (https://en.wikipedia.org/wiki/Reason)
+        14. Consciousness (https://en.wikipedia.org/wiki/Consciousness)
+        15. Sentience (https://en.wikipedia.org/wiki/Sentience)
+        16. Feeling (https://en.wikipedia.org/wiki/Feeling)
+        17. Subjectivity (https://en.wikipedia.org/wiki/Subjectivity)
+Reached Philosophy page - hopping stopped
